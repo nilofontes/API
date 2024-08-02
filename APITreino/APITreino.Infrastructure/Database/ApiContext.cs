@@ -10,7 +10,7 @@ namespace APITreino.Infrastructure.Database
 
         #endregion
 
-        private readonly string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=G:\\Programacao\\C#\\Consultoria\\API\\APITreino\\APITreino.Infrastructure\\Database\\DBapi.mdf;Integrated Security=True";
+        private readonly string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Maykon Granemann\\Documents\\github\\API\\APITreino\\APITreino.Infrastructure\\Database\\DBApi.mdf\";Integrated Security=True";
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
